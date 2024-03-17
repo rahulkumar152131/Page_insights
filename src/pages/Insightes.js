@@ -42,7 +42,7 @@ const Insightes = () => {
                     ))}
                 </select>
                 <div className="button">
-                    <button onClick={() => getInsight(currentPage)}>Get Inshghts</button>
+                    <button onClick={() => getInsight(currentPage)}>Get Insight</button>
                 </div>
 
             </div>
