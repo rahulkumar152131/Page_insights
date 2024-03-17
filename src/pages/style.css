@@ -1,0 +1,10 @@
+.get-insight {
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.get-insight button {
+    margin-left: 10px;
+}
