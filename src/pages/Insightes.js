@@ -8,7 +8,7 @@ const Insightes = () => {
     async function getData() {
         //,page_fans_country,post_reactions_like_total,page_impressions_by_country_unique,page_impressions_unique,page_impressions,page_fans_by_like_source
 
-        let token = 'EAAFdWf2Ty8QBO9xUKVDpLTAf2MjSjUy6eOemLcs6HpZAnOhZB87Xm8IBd9ZCEjrDm7G8ZBEDDY28Qsb2XHR1NTxcOkYl3443QBOe9Gjo3MWJkte9lXHZBUVgxrqWZAxhPf2uVWd8nOEQq1x2IXYZChVKIHlypUO2cuaeEhzYntPoO5YQc4fTqX0j8BwDwfRHhZCncj2aXiKb2RTGAwItQgZDZD'
+        let token = 'EAAFdWf2Ty8QBO19xHOFM5Mb1W6fW4gZA8sp4rvKsZCoHvA0UJcejpYVPY4J9Towu857HZCh336JQP1tAQK6jEUHHvWULTrUlqckU3ivg8opUvdEM2bCkcHUxVs2qlfb30OmIHD3qbTZBwWMDUQUSZA031jsAoJkkRE5aZBaJFUqrma8ITkcBhkpRKMWH4tBUmlomW3gnIVMcU0Ac29nwZDZD'
         let pages = await fetch(`https://graph.facebook.com/v19.0/me/accounts?access_token=${token}`
         ).then((res) => res.json()).then((res) => res.data);
         // console.log(pages?.[0]);
